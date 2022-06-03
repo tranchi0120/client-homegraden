@@ -1,0 +1,12 @@
+.menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    &-link {
+        color: black;
+        font-weight: bold;
+    }
+    &-link:hover {
+        color: rgb(8, 119, 45);
+    }
+}

@@ -1,0 +1,41 @@
+body {
+    line-height: 1;
+    font-family: $font-secondary;
+    color: $gray;
+    // font-weight: 600;
+    background-color: white;
+}
+
+.container-fluid {
+    max-width: 1328px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1239px;
+    padding: 0 15px;
+    margin: 0 auto;
+    // @media screen and (max-width: 1023px) and (min-width: 768px) {
+    //   padding: 0;
+    // }
+}
+
+.dropdown {
+    font-family: $fonts;
+    font-weight: 200;
+    border: 1px solid #000;
+    border-radius: 100px;
+    width: 104px;
+    height: 45px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 13px;
+    @media screen and (max-width: 320px) {
+        width: 90px;
+        height: 35px;
+        padding-top: 8px;
+    }
+}
+
+//

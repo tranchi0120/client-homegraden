@@ -1,0 +1,37 @@
+.tree {
+    margin-bottom: 30px;
+    &-content {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    &-title {
+        border-bottom: 2px solid;
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+        color: #2b7204;
+        padding: 5px 0;
+    }
+    &-group {
+        height: 320px;
+        margin: 5px 5px;
+        border-radius: 10px;
+        border: 2px solid black;
+        padding: 5px 5px;
+        &-image {
+            background-color: #c3a8a8;
+            margin: 0 auto;
+            max-width: 230px;
+            text-align: center;
+            justify-content: center;
+        }
+        &-content {
+            padding-top: 20px;
+            display: block;
+            text-align: center;
+            font-size: 1.2rem;
+            color: black;
+            font-family: fantasy;
+        }
+    }
+}

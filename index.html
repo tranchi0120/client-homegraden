@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./fonts/Proxima Nova Font.otf" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@300&family=Playfair+Display:wght@700&family=Roboto&display=swap" rel="stylesheet" />
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.4-web/css/all.css" />
+    <link rel="stylesheet" href="./css/client.css">
+
+
+    <style>
+        * {
+            box-sizing: border-box
+        }
+        
+        .mySlides1,
+        .mySlides2 {
+            display: none
+        }
+        
+        img {
+            vertical-align: middle;
+        }
+        /* Slideshow container */
+        
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+        /* Next & previous buttons */
+        
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        /* Position the "next button" to the right */
+        
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        /* On hover, add a grey background color */
+        
+        .prev:hover,
+        .next:hover {
+            background-color: #f1f1f1;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="header-main">
+                <div class="header-top">
+                    <div class="header-top-left">
+                        <a href="#" class="header-top-icon"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="header-top-icon"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="header-top-right">
+                        <a href="#" class="header-top-icon"><i class="fa-regular fa-envelope"></i> | Email</a>
+                        <p class="header-top-text">7h30 AM-17h30 PM</p>
+                        <a href="#" class="header-top-icon"><i class="fa-solid fa-phone-hangup"></i>0339599523</a>
+                    </div>
+                </div>
+                <div class="header-bottom">
+
+                    <div class="header-bottom-left">
+                        <img class="header-img" src="./image/logo.jpg" alt="#">
+                    </div>
+                    <div class="header-bottom-center">
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">Giới Thiệu</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">Sản Phẩm</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">Tin Tức</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">Liên Hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-bottom-right">
+                        <div class="header-bottom-button">
+                            <a class="header-bottom-btn" href="#">Đăng Nhập</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-main">
+                    <!-- slider -->
+
+
+                    <div class="hero-slideshow-container">
+                        <div class="mySlides1">
+                            <img class="hero-img" src="./image/cay1.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides1">
+                            <img class="hero-img" src="./image/cay2.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides1">
+                            <img class="hero-img" src="./image/cay3.jpg" style="width:100%">
+                        </div>
+
+                        <a class="hero-prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                        <a class="hero-next" onclick="plusSlides(1, 0)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tree">
+            <div class="container">
+                <span class="tree-title">Các Loại Cây giống ở HomeGraden</span>
+                <div class="tree-content">
+                    <div class="tree-group">
+                        <div class="tree-group-image">
+                            <img class="tree-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="tree-group-title">
+                            <p class="tree-group-content">
+                                Tên Cây Trồng
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tree-group">
+                        <div class="tree-group-image">
+                            <img class="tree-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="tree-group-title">
+                            <p class="tree-group-content">
+                                cay ca phe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tree-group">
+                        <div class="tree-group-image">
+                            <img class="tree-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="tree-group-title">
+                            <p class="tree-group-content">
+                                cay ca phe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tree-group">
+                        <div class="tree-group-image">
+                            <img class="tree-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="tree-group-title">
+                            <p class="tree-group-content">
+                                cay ca phe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tree-group">
+                        <div class="tree-group-image">
+                            <img class="tree-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="tree-group-title">
+                            <p class="tree-group-content">
+                                cay ca phe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tree-group">
+                        <div class="tree-group-image">
+                            <img class="tree-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="tree-group-title">
+                            <p class="tree-group-content">
+                                cay ca phe
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tree-group">
+                        <div class="tree-group-image">
+                            <img class="tree-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="tree-group-title">
+                            <p class="tree-group-content">
+                                cay ca phe
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sector">
+
+            <div class="container">
+                <span class="sector-title">Các Khu Cây Trồng Ở HomeGraden</span>
+                <div class="sector-content">
+                    <div class="sector-group">
+                        <span class="sector-group-name">
+                            Tên Khu
+                        </span>
+                        <div class="sector-group-image">
+
+                            <img class="sector-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="sector-group-content">
+                            <span class="sector-group-title">
+                                Tên Cây
+                            </span>
+                            <span class="sector-group-status">
+                                trạng thái: đã hết
+                            </span>
+                        </div>
+                    </div>
+                    <div class="sector-group">
+                        <span class="sector-group-name">
+                            Tên Khu
+                        </span>
+                        <div class="sector-group-image">
+
+                            <img class="sector-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="sector-group-content">
+                            <span class="sector-group-title">
+                                Tên Cây
+                            </span>
+                            <span class="sector-group-status">
+                                trạng thái: đã hết
+                            </span>
+                        </div>
+                    </div>
+                    <div class="sector-group">
+                        <span class="sector-group-name">
+                            Tên Khu
+                        </span>
+                        <div class="sector-group-image">
+
+                            <img class="sector-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="sector-group-content">
+                            <span class="sector-group-title">
+                                Tên Cây
+                            </span>
+                            <span class="sector-group-status">
+                                trạng thái: đã hết
+                            </span>
+                        </div>
+                    </div>
+                    <div class="sector-group">
+                        <span class="sector-group-name">
+                            Tên Khu
+                        </span>
+                        <div class="sector-group-image">
+
+                            <img class="sector-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="sector-group-content">
+                            <span class="sector-group-title">
+                                Tên Cây
+                            </span>
+                            <span class="sector-group-status">
+                                trạng thái: đã hết
+                            </span>
+                        </div>
+                    </div>
+                    <div class="sector-group">
+                        <span class="sector-group-name">
+                            Tên Khu
+                        </span>
+                        <div class="sector-group-image">
+
+                            <img class="sector-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="sector-group-content">
+                            <span class="sector-group-title">
+                                Tên Cây
+                            </span>
+                            <span class="sector-group-status">
+                                trạng thái: đã hết
+                            </span>
+                        </div>
+                    </div>
+                    <div class="sector-group">
+                        <span class="sector-group-name">
+                            Tên Khu
+                        </span>
+                        <div class="sector-group-image">
+
+                            <img class="sector-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="sector-group-content">
+                            <span class="sector-group-title">
+                                Tên Cây
+                            </span>
+                            <span class="sector-group-status">
+                                trạng thái: đã hết
+                            </span>
+                        </div>
+                    </div>
+                    <div class="sector-group">
+                        <span class="sector-group-name">
+                            Tên Khu
+                        </span>
+                        <div class="sector-group-image">
+
+                            <img class="sector-img" src="./image/logo.jpg" alt="#">
+                        </div>
+                        <div class="sector-group-content">
+                            <span class="sector-group-title">
+                                Tên Cây
+                            </span>
+                            <span class="sector-group-status">
+                                trạng thái: đã hết
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="slogan">
+            <img class="slogan-image" src="./image/caphe.png" alt="#">
+            <div class="slogan-main container">
+                <h1 class="slogan-title">
+                    Vườn Cây HomeGraden
+                </h1>
+                <span class="slogan-content">Trung tâm giống cây trồng HomeGraden Tây Nguyên chuyên cung cấp các giống
+                    cây
+                    trồng tốt nhất. Các sản phẩm chất lượng cao
+                    cấp nhất. Quý khách có thể an tâm khi sử dụng các sản phẩm của viện HomeGraden Tây Nguyên.</span>
+                <span class="slogan-content">Mọi thắc mắc vui lòng liên hệ Vườn ươm giống cây trồng Eakmat Tây Nguyên uy
+                    tín, chất lượng được đảm bảo 100%.
+                </span>
+                <span class="slogan-content">Hotline: 0907 98 46 46 hoặc 0905 98 46 46.</span>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-left">
+                    <div class="footer-left-title">
+                        <p class="footer-left-content">Địa chỉ của hàng: km19, QL26, Huyện Krong pắc, TT.Phước An, Tỉnh Đăk Lăk</p>
+                        <p class="footer-left-design">Copyright 2022 © HomeGraden Tây Nguyên | Design by Dakdesign
+                        </p>
+                    </div>
+
+
+                </div>
+
+                <div class="footer-right">
+                    <div class="footer-right-content">
+                        <div class="footer-right-icon">
+                            <a href="#" class="header-top-icon"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#" class="header-top-icon"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">Giới Thiệu</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">Sản Phẩm</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">Tin Tức</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#" class="menu-link">Liên Hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.footer {
+    margin-top: -100px;
+    &-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    background-color: #318A00;
+    padding: 10px;
+    &-left {
+        &-content {
+            font-size: 1rem;
+            line-height: 1.5rem;
+            padding: 5px;
+            color: white;
+        }
+        &-design {
+            font-size: 0.7rem;
+            line-height: 1.5rem;
+            padding: 5px;
+            color: white;
+        }
+    }
+    &-right {
+        &-content {
+            gap: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
